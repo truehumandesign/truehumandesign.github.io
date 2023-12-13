@@ -1,19 +1,23 @@
 # The URL the site will be built for
 base_url = "https://truehumandesign.net"
 title = "truehumandesign"
-# build_search_index = true
-# generate_feed = true
-# minify_html = true
+build_search_index = false
+generate_feed = true
+compile_sass = true
+minify_html = true
 
 theme = "apollo"
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-dark"
+highlight_theme = "gruvbox-dark"
 
 [extra]
-# use_cdn = false
-theme = "toggle"
+toc = true
+use_cdn = false
+theme = "auto"
+
+stylesheets = ["override.css"]
 
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
