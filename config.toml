@@ -1,9 +1,9 @@
 # The URL the site will be built for
 base_url = "https://truehumandesign.net"
 title = "truehumandesign"
-build_search_index = true
-generate_feed = true
-minify_html = true
+# build_search_index = true
+# generate_feed = true
+# minify_html = false
 
 theme = "apollo"
 
@@ -12,7 +12,7 @@ highlight_code = true
 highlight_theme = "ayu-dark"
 
 [extra]
-use_cdn = false
+# use_cdn = false
 theme = "toggle"
 
 menu = [
